@@ -10,8 +10,8 @@
 	</TemplateData>
 	<TemplateContent>
 		<ProjectCollection>
-			<ProjectTemplateLink ProjectName="$safeprojectname$.Application" CopyParameters="true">
-				VSTemplate.Application\MyTemplate.vstemplate
+			<ProjectTemplateLink ProjectName="$safeprojectname$.Business" CopyParameters="true">
+				VSTemplate.Business\MyTemplate.vstemplate
 			</ProjectTemplateLink>
 
 			<ProjectTemplateLink ProjectName="$safeprojectname$.Domain" CopyParameters="true">
@@ -22,8 +22,8 @@
 				VSTemplate.Infrastructure\MyTemplate.vstemplate
 			</ProjectTemplateLink>
 
-			<ProjectTemplateLink ProjectName="$safeprojectname$.Application.UnitTests" CopyParameters="true">
-				VSTemplate.Application.UnitTests\MyTemplate.vstemplate
+			<ProjectTemplateLink ProjectName="$safeprojectname$.Business.UnitTests" CopyParameters="true">
+				VSTemplate.Business.UnitTests\MyTemplate.vstemplate
 			</ProjectTemplateLink>
 		</ProjectCollection>
 	</TemplateContent>

@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using $ext_safeprojectname$.Application.Common.Interfaces;
+using $ext_safeprojectname$.Business.Common.Interfaces;
 
 namespace $ext_safeprojectname$.Infrastructure.Persistence
 {

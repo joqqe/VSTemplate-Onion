@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace $ext_safeprojectname$.Application.Common.Exceptions
+namespace $ext_safeprojectname$.Business.Common.Exceptions
 {
     public class NotFoundException : Exception
     {

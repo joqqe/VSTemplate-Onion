@@ -1,6 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-
-namespace $ext_safeprojectname$.Application.Common.Interfaces
+﻿namespace $ext_safeprojectname$.Business.Common.Interfaces
 {
     public interface IDomainDbContext
     {

@@ -1,7 +1,7 @@
-﻿
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
+using System;
 
-namespace $ext_safeprojectname$.Application.UnitTests
+namespace $ext_safeprojectname$.Business.UnitTests
 {
     public abstract class TestBase : IDisposable
     {
@@ -21,7 +21,7 @@ namespace $ext_safeprojectname$.Application.UnitTests
                     dbOptions.UseSqlite(connection);
                 });
             });
-            services.AddApplication();
+            services.AddBusiness();
 
             serviceProvider = services.BuildServiceProvider();
 
